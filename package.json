@@ -1,6 +1,6 @@
 {
   "name": "find-and-replace-immutable",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Exposes immutable findAndReplace and replaceAt functions on top of lodash/fp",
   "main": "lib/index.js",
   "repository": "https://github.com/robertherber/find-and-replace-immutable",

@@ -2,7 +2,7 @@
 import curry from "lodash/fp/curry";
 import findIndex from "lodash/fp/findIndex";
 
-import { replaceAt } from "./replaceAt";
+import replaceAt from "./replaceAt";
 
 type ReplacementPredicate<T> = T | (T => T);
 

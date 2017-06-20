@@ -18,7 +18,7 @@
     "helper"
   ],
   "scripts": {
-    "test": "eslint src && jest",
+    "test": "eslint src && jest src",
     "build": "babel src --out-dir lib --source-maps inline",
     "prepublish": "yarn test && yarn run build"
   },
